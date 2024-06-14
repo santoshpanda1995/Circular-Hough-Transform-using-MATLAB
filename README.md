@@ -1,13 +1,13 @@
 # Circular-Hough-Transform-using-MATLAB
 
-The circular Hough Transform (CHT) is a basic feature extraction technique used in digital image processing for detecting circles in imperfect images. 
+The circular Hough Transform (CHT) is a basic feature extraction technique in digital image processing that detects circles in imperfect images. 
 The circle candidates are produced by “voting” in the Hough parameter space and then selecting local maxima in an accumulator matrix.
 
-CHT is used to transform a set of edge points in the image space into a set of accumulated votes in a parameter space.
+CHT transforms a set of edge points in the image space into a set of accumulated votes in a parameter space.
 For each edge point, votes are accumulated in an accumulator array for all parameter combinations.
-The array elements that contain the highest number of votes indicate the presence of the shape.
+The array of elements that contain the highest number of votes indicates the presence of the shape.
 
-So here three ways of representing the CHT is presented . The codes are implemented in MATLAB. The mesh plots are also plotted which shows the highest number of votes or we can say the intersection points between actual and assumed circle.
+So here, three ways of representing the CHT are presented. The codes are implemented in MATLAB. The mesh plots are also plotted, which show the highest number of votes, or, we can say, the intersection points between the actual and assumed circles.
 The three cases with their plots are as follows:
 
 # Having Greater Radius 
